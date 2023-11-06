@@ -1,0 +1,74 @@
+.container {
+  max-width: 1800px;
+  width: 92%;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+.container .hero {
+  width: 1170px;
+  height: 210px;
+  padding-top: 45px;
+  padding-left: 160px;
+  background: rgb(78, 43, 176);
+  background: linear-gradient(90deg, rgb(78, 43, 176) 1%, rgb(101, 131, 226) 31%, rgb(9, 181, 209) 68%, rgb(109, 191, 196) 100%, rgb(123, 220, 242) 100%, rgb(70, 145, 252) 100%, rgb(0, 212, 255) 100%);
+  border-radius: 36px;
+  background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+  margin-bottom: 103px;
+}
+.container .hero p {
+  color: var(--2, #FFF);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  margin-bottom: 29px;
+}
+.container .hero h3 {
+  color: var(--4, #FFF);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.container-card .card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.container-card h4 {
+  color: var(--1, #1F2428);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 40px;
+  margin-bottom: 7px;
+}
+.container-card p {
+  color: var(--1, #1F2428);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 22px;
+  width: 250px;
+}
+.container-card button {
+  width: 180px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--8, #41B7E9);
+  color: var(--1, #FFF);
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  border: none;
+}
+.container-card button:hover {
+  cursor: pointer;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(44, 184, 217) 12%, rgb(168, 34, 241) 18%, rgb(175, 29, 253) 25%, rgb(39, 46, 241) 33%, rgb(197, 72, 200) 46%, rgb(205, 188, 87) 54%, rgb(81, 221, 99) 70%, rgb(252, 176, 69) 100%);
+}/*# sourceMappingURL=main.css.map */

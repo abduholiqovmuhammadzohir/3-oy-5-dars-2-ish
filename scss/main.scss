@@ -1,0 +1,88 @@
+.container {
+    max-width: 1800px;
+    width: 92%;
+    margin-left: 110px;
+    margin-top: 50px;
+
+    .hero {
+        width: 1170px;
+        height: 210px;
+        padding-top: 45px;
+        padding-left: 160px;
+        background: rgb(78, 43, 176);
+        background: linear-gradient(90deg, rgba(78, 43, 176, 1) 1%, rgba(101, 131, 226, 1) 31%, rgba(9, 181, 209, 1) 68%, rgba(109, 191, 196, 1) 100%, rgba(123, 220, 242, 1) 100%, rgba(70, 145, 252, 1) 100%, rgba(0, 212, 255, 1) 100%);
+        border-radius: 36px;
+        background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+        margin-bottom: 103px;
+
+        p {
+            color: var(--2, #FFF);
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 14px;
+            margin-bottom: 29px;
+        }
+
+        h3 {
+            color: var(--4, #FFF);
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 60px;
+        }
+    }
+
+}
+
+.container-card {
+    // max-width: 1800px;
+    // width: 93%;
+
+
+    .card {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+
+    h4 {
+        color: var(--1, #1F2428);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 40px;
+        margin-bottom: 7px;
+    }
+
+    p {
+        color: var(--1, #1F2428);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 36px;
+        margin-bottom: 22px;
+        width: 250px;
+    }
+
+    button {
+        width: 180px;
+        height: 56px;
+        border-radius: 8px;
+        background: var(--8, #41B7E9);
+        color: var(--1, #FFF);
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        border: none;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(44, 184, 217, 1) 12%, rgba(168, 34, 241, 1) 18%, rgba(175, 29, 253, 1) 25%, rgba(39, 46, 241, 1) 33%, rgba(197, 72, 200, 1) 46%, rgba(205, 188, 87, 1) 54%, rgba(81, 221, 99, 1) 70%, rgba(252, 176, 69, 1) 100%);
+    }
+}
